@@ -380,7 +380,7 @@ footer{
     <input type="text" id="number" class="inner-box" placeholder="923197877374">
 </div>
 
-<div class="rgb-container move-left">     <button class="inner-box" onclick="getCode(ZEESHUMD)">GET PAIR CODE</button> </div> 
+<div class="rgb-container move-left">     <button class="inner-box" onclick="getCode()">GET PAIR CODE</button> </div> 
 
 <div class="rgb-container move-right" id="borderBox" style="display:none;">
     <div class="inner-box" id="codeBox">----</div>
@@ -421,7 +421,7 @@ footer{
         const data = await res.json();
         
         if (data.code) {
-            codeBox.style.letterSpacing = "4px"; // Code ke liye spacing wapis
+            codeBox.style.letterSpacing = "4px";//Code ke liye spacing wapis
             codeBox.style.color = "#fff"; 
             codeBox.innerText = data.code;
         } else {
