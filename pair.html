@@ -405,7 +405,7 @@ footer{
     if (!num) {
         borderBox.style.display = "block"; // Box show karo
         codeBox.style.letterSpacing = "normal"; // Error ke liye spacing normal
-        codeBox.style.color = "#ff4d4d"; // Error color Red
+        codeBox.style.color = "#ff4d4d"; // Error color Pink
         codeBox.innerText = "923197877374";
         return;
     }
@@ -421,7 +421,7 @@ footer{
         const data = await res.json();
         
         if (data.code) {
-            codeBox.style.letterSpacing = "4px";//Code ke liye spacing wapis
+            codeBox.style.letterSpacing = "4px"; // Code ke liye spacing wapis
             codeBox.style.color = "#fff"; 
             codeBox.innerText = data.code;
         } else {
