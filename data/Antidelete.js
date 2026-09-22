@@ -22,4 +22,4 @@ const setAntideleteStatus = async (chatId, status) => {
 };
 
 module.exports = { Antidelete, getAntideleteStatus, setAntideleteStatus };
-// ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʀꜱʟᴀɴ-ᴍᴅ
+// ᴘᴏᴡᴇʀᴇᴅ ʙʏ zeeshu_botz
